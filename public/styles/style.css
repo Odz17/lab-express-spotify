@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center; 
+}
+
+button {
+    display: block;
+    margin: 0 auto; 
+    padding: 10px 20px;
+    background-color: #0c0c0c; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 200px; 
+    height: auto;
+}
+
+.artist img {
+    max-width: 150px;
+    height: auto;
+}
+
+.artist h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.album img {
+    max-width: 200px;
+    height: auto;
+}
+
+.album h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.track h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.track audio {
+    width: 100%;
+}
