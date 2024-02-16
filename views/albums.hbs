@@ -1,0 +1,12 @@
+<div class="container">
+    {{#each albums}}
+    <div class="album">
+        <img src="{{images.[0].url}}" alt="{{name}}">
+        <h3>{{name}}</h3>
+        
+        <button>
+            <a href="/tracks/{{id}}">Ver pistas</a>
+        </button>       
+    </div>
+    {{/each}}
+</div>
